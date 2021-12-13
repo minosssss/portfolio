@@ -1,0 +1,66 @@
+.about-me {
+  background-color: var(--clr-middle);
+  color: var(--clr-dark);
+  /* background-image: url("../img/bg_img.jpg"); */
+}
+
+.my-services {
+  /* background-color: var(--clr-dark);
+  color: var(--clr-dark); */
+  position: relative;
+  text-align: center;
+  color: var(--clr-middle);
+}
+
+.my-services:after {
+  content: "";
+  background-color: var(--clr-dark);
+  background-blend-mode: multiply;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/bg_img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.section__title--services {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+.section__title--services::after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.3;
+}
+
+.services {
+  margin-bottom: 4em;
+}
+
+.service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .services {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service + .service {
+    margin-left: 2em;
+  }
+}
