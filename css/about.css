@@ -14,7 +14,8 @@
 
 @media (max-width: 960px) {
   .section__subtitle--about {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    
   }
   .about-me__body {
     font-size: 1rem;

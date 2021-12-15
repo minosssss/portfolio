@@ -1,6 +1,9 @@
 @import url("../css/intro.css");
 @import url("../css/service.css");
 @import url("../css/about.css");
+@import url("../css/work.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
 
 *,
 *::before,
@@ -23,7 +26,7 @@
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
-  --fs-h3: 1.25rem;
+  --fs-h3: 1.5rem;
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -52,12 +55,16 @@
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
+    --fs-h3: 2rem;
     --fs-body: 1.125rem;
   }
 }
 
 /* General Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   background-color: var(--clr-light);
@@ -105,11 +112,6 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
-}
-
-/* header */
-nav {
-  display: none;
 }
 
 
