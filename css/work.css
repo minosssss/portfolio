@@ -1,137 +1,102 @@
 .my-work {
-    background-color: var(--clr-middle);
-    color: var(--crl-dark);
-    text-align: center;
+  background-color: var(--clr-middle);
+  color: var(--crl-dark);
+  text-align: center;
 }
 
 .section__subtitle--work {
-    color: var(--clr-accent);
-    font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
 }
 
 .portfolio {
-    width: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 10px;
-    margin: 0 auto;
-
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  margin: 0 auto;
 }
-/* .portfolio__text {
-    position: absolute;
-    bottom: 3em;
-    z-index: -1;
-    color: var(--clr-dark);
-    padding: 0 1em;
-}
-
-.portfolio__item {
-    background-color: var(--clr-accent);
-    overflow: hidden;
-    position: relative;
-}
-
-.portfolio__img {
-    transition: trasform 750ms cubic-bezier(.5,0,.5,1),
-    opacity 250ms linear
-}
-
-.portfolio__text:focus {
-    z-index: 0;
-}
-.portfolio__item:hover {
-    position: relative;
-    z-index: 2;
-}
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
-    opacity: 0.3;
-} */
 
 .card-tech__list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 2em 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 2em 0;
 }
 
 .card-tech__list li {
-    border-radius: 5px;
-    align-items: flex-start;
-    display: inline-block;
-    font-size: 0.7rem;
-    margin: .5em .5em;
-    width: 5.5em;
-    background-color:var(--clr-middle);
-    color: var(--clr-dark);
+  border-radius: 5px;
+  align-items: flex-start;
+  display: inline-block;
+  font-size: 0.7rem;
+  margin: 0.5em 0.5em;
+  width: 6em;
+  background-color: var(--clr-middle);
+  color: var(--clr-dark);
 }
 
 .face2 {
-    background-image: url('../img/work/portfolio-01.jpg');
-    background-size: cover;
-    transition: 0.5s;
-    color: var(--clr-middle);
+  background-size: cover;
+  transition: 0.5s;
+  color: var(--clr-middle);
 }
 
 .face2 h3 {
-    border-radius: 2px solid var(--clr-middle);
-    width: 250px;
-    height: 50px;
-    padding-top: 5px;
-    background-color: rgba(48, 48, 48, 0.6);
+  border-radius: 2px solid var(--clr-middle);
+  width: 250px;
+  height: 50px;
+  padding-top: 5px;
+  background-color: rgba(48, 48, 48, 0.5);
 }
 
 .portfolio .card {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    margin: 0 auto;
-    background: var(--clr-dark);
-    transition: 0.5s;
+  position: relative;
+  width: 330px;
+  height: 450px;
+  margin: 0 auto;
+  background: var(--clr-dark);
+  transition: 0.5s;
 }
 
 .portfolio .card:hover {
-    box-shadow: var(--bs);
+  box-shadow: var(--bs);
 }
 
 .portfolio .card .face {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio .card .face.face1 {
-    box-sizing: border-box;
-    padding: 1em;
-    text-align: center;
-    background: var(--crl-dark);
-    color: var(--clr-middle);
+  box-sizing: border-box;
+  padding: 1em;
+  text-align: center;
+  background: var(--crl-dark);
+  color: var(--clr-middle);
 }
 
 .portfolio .card .face.face1 h3 {
-    color: var(--clr-accent);
+  color: var(--clr-accent);
 }
 
 .portfolio .card:hover .face.face2 {
-    height: 400px;
-    width: 300px;
-    transform: scale(0) translate(0px, -100%);
-    transition: 0.3s ease-in-out;
+  height: 400px;
+  width: 300px;
+  transform: scale(0) translate(0px, -100%);
+  transition: 0.3s ease-in-out;
 }
 
-
 @media (min-width: 800px) {
-    .face h3 {
-      font-size: 1.5rem;
-    }
+  .face h3 {
+    font-size: 1.5rem;
   }
+}
