@@ -42,6 +42,7 @@
   background-size: cover;
   transition: 0.5s;
   color: var(--clr-middle);
+  background-position: center;
 }
 
 .face2 h3 {
