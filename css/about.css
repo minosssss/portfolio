@@ -13,9 +13,9 @@
   margin: 0 auto;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 990px) {
   .section__subtitle--about {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .about-me__body {
     font-size: 1rem;

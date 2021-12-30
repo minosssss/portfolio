@@ -20,7 +20,7 @@
   background-color: var(--clr-accent);
   font-family: var(--ff-eng), var(--ff-kor);
   padding: 0.25em 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
 }
 
 .section__subtitle--intro {
